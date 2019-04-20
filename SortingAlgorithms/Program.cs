@@ -73,7 +73,7 @@ namespace SortingAlgorithms
             {
                 Console.Write("n = ");
                 n = int.Parse(Console.ReadLine());
-            } while (n < 0);
+            } while (n <= 0);
             int[] array = new int[n];
             Random rd = new Random();
             int i;
